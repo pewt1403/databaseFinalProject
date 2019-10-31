@@ -54,7 +54,7 @@ ROOT_URLCONF = 'databaseFinalProject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['parcelManagement/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
